@@ -114,7 +114,7 @@ latitudes = { 60.385390, 60.385588, 60.385398, 60.383428, 60.376988}
 
 Metoden ```public void convert()``` i klassen GPSDataConverter inneholder starten på kode som kan gjøre denne konverteringen.
 
-Utvid convert-metoden slik den også konverterer breddegrader, lengdegrader og høyder.
+Utvid convert-metoden slik den konverterer breddegrader, lengdegrader og høyder.
 
 #### 2b)
 
@@ -281,7 +281,7 @@ Hastighet	MET
 <10 mph	4.0
 10-12 mph	6.0
 12-14 mph	8.0
-14-15 mph	10.0
+14-16 mph	10.0
 16-20 mph	12.0
 >20 mph	16.0
 ```
@@ -316,7 +316,7 @@ Energy         :     742.80 kcal
 
 ### Oppgave 5 - Visualisering av høyde profil
 
-I denne oppgaven skal EasyGraphics-biblioteket brukes til å visualisere høyde-kurven for ruten gitt ved GPS datapunktene. For GPS datafilen `medium.log` skal visualiseringen se ut som nednefor der høyden på en vertikal linje svarer til høyden i GPS datapunktet.
+I denne oppgaven skal EasyGraphics-biblioteket brukes til å visualisere høyde-kurven for ruten gitt ved GPS datapunktene. For GPS datafilen `medium.log` skal visualiseringen se ut som nedenfor der høyden på en vertikal linje svarer til høyden i GPS datapunktet.
 
 ![](assets/markdown-img-paste-20180909115303289.png)
 
